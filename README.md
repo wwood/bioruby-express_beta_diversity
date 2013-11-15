@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/wwood/bioruby-express_beta_diversity.png)](http://travis-ci.org/wwood/bioruby-express_beta_diversity)
 
-Full description goes here
+Ruby interface to [express beta diversity](https://github.com/dparks1134/ExpressBetaDiversity) things. Currently, functionality is limited to parsing the output distance matrices. 
 
 Note: this software is under active development!
 
