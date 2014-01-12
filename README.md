@@ -16,6 +16,12 @@ gem install bio-express_beta_diversity
 
 ```ruby
 require 'bio-express_beta_diversity'
+
+dists = Bio::EBD::DistanceMatrix.parse_from_file 'Bray-Curtis.cluster.diss'
+dists.sample_names #=> ["sample1", "sample2", ... ]
+dists.distance('sample1','sample2') #=> 0.251761
+dists.distance('sample2','sample1') #=> 0.251761
+
 ```
 
 The API doc is online. For more code examples see the test files in
@@ -27,8 +33,6 @@ Information on the source tree, documentation, examples, issues and
 how to contribute, see
 
   http://github.com/wwood/bioruby-express_beta_diversity
-
-The BioRuby community is on IRC server: irc.freenode.org, channel: #bioruby.
 
 ## Cite
 
