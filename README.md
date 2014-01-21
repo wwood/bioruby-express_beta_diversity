@@ -32,6 +32,7 @@ otus.sample_counts.keys #=> ['sample1','sample2', ..]
 otus.sample_counts['sample1'] #=> [1.0,4.0,0.0,..]
 otus.otu_names #=> ['otu1','otu2','otu3',..]
 ```
+The `otu_names` correspond with the order of the `sample_counts.values`.
 
 The API doc is online. For more code examples see the test files in
 the source tree.
