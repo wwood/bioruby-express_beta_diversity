@@ -11,4 +11,5 @@ end
 
 
 require 'bio-express_beta_diversity/distance_matrix.rb'
+require 'bio-express_beta_diversity/ebd_format.rb'
 
